@@ -11,7 +11,7 @@
     padding: 0;
     padding-top: 29px;
     padding-bottom: 22px;
-    border-bottom: 1px solid rgb(230, 232, 236);
+    border-bottom: 1px solid var(--color-medium-white);
   }
 
   .header__container {
@@ -323,9 +323,6 @@
     width: 100%;
   }
 
-
-
-
 }
 
 /* 320 */
@@ -447,7 +444,7 @@
 
   .transfers__inner-caption {
     padding: 10px 12px 12px 10px;
-    border: 1px solid rgb(230, 232, 236);
+    border: 1px solid var(--color-medium-white);
   }
 
   .transfers__caption {
@@ -463,14 +460,14 @@
   }
 
   .transfers__link {
-    color: rgb(109, 49, 238);
+    color: var(--color-violet);
     font-size: 12px;
     font-weight: 400;
     line-height: 12px;
   }
 
   .transfers__link-svg {
-    fill: rgb(109, 49, 238);
+    fill: var(--color-violet);
   }
 
   .transfers__group-micro {
