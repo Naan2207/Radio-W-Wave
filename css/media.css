@@ -673,4 +673,8 @@
     line-height: 12px;
   }
 
+  .footer__inner-link {
+    justify-content: center;
+  }
+
 }
